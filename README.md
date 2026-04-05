@@ -10,6 +10,23 @@ Pipeline de machine learning end-to-end pour la prédiction de prix immobiliers,
 
 ---
 
+## Sommaire
+
+- [Présentation](#présentation)
+- [Dataset](#dataset)
+- [Architecture du Pipeline](#architecture-du-pipeline)
+- [Analyse exploratoire](#analyse-exploratoire)
+- [Feature Engineering](#feature-engineering)
+- [Performances des modèles](#performances-des-modèles)
+- [Modèle final — VotingRegressor](#modèle-final--votingregressor)
+- [Inférence](#inférence)
+- [Application Streamlit](#application-streamlit)
+- [Structure du dépôt](#structure-du-dépôt)
+- [Notes techniques](#notes-techniques)
+- [Environnement](#environnement)
+
+---
+
 ## Présentation
 
 Ce projet a été développé dans le cadre de l'évaluation Data Engineering & MLOps du programme MBAESG. L'objectif était de construire un pipeline ML complet sur Snowflake sans déplacer les données vers un environnement externe, en s'appuyant sur Snowpark, les Snowflake Notebooks et le Snowflake Model Registry.
