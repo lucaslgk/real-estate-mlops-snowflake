@@ -1,0 +1,12 @@
+name: app_environment
+channels:
+  - snowflake
+dependencies:
+  - catboost=*
+  - matplotlib=*
+  - modin=*
+  - py-xgboost=*
+  - scikit-learn=*
+  - seaborn=*
+  - snowflake-ml-python=*
+  - snowflake-snowpark-python=*
