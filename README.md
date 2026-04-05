@@ -219,7 +219,7 @@ L'application est disponible dans `streamlit.py`. Pour la déployer dans Snowfla
 
 ```
 .
-├── notebook.ipynb        # Notebook Snowflake — pipeline ML complet
+├── pipeline.ipynb        # Notebook Snowflake — pipeline ML complet
 ├── streamlit.py          # Application Streamlit-in-Snowflake
 ├── environment.yml       # Environnement Python Snowflake
 └── README.md
