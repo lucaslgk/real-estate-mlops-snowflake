@@ -6,7 +6,7 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 ![AWS S3](https://img.shields.io/badge/AWS_S3-232F3E?style=flat&logo=amazonaws&logoColor=white)
 
-Pipeline de machine learning end-to-end pour la prédiction de prix immobiliers, construit intégralement dans l'écosystème Snowflake — de l'ingestion des données brutes jusqu'à une application d'inférence en temps réel.
+Pipeline de machine learning end-to-end pour la prédiction de prix immobiliers, construit intégralement dans Snowflake : de l'ingestion des données brutes jusqu'à une application d'inférence en temps réel.
 
 ---
 
@@ -37,7 +37,7 @@ Le pipeline couvre l'ingestion des données depuis S3, la déduplication, le fea
 
 ## Dataset
 
-Le dataset décrit des propriétés résidentielles et leur prix de vente. Il provient du bucket `s3://logbrain-datalake/datasets/house_price/` et a été chargé dans Snowflake via un stage externe au format JSON.
+Le dataset décrit des propriétés résidentielles et leur prix de vente. Il provient d'un bucket S3 et a été chargé dans Snowflake via un stage externe au format JSON.
 
 | Variable | Description |
 |---|---|
