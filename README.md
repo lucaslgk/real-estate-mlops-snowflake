@@ -1,4 +1,4 @@
-# Prédiction de Prix Immobiliers — MLOps sur Snowflake
+# Real Estate Price AI Predictor - MLOps sur Snowflake
 
 ![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat&logo=snowflake&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
@@ -166,7 +166,17 @@ FROM HOUSE_PRICE_DB.HOUSE_SCHEMA.HOUSE_PRICE_TEST_DATA;
 
 L'application propose une interface d'estimation en temps réel construite avec Streamlit-in-Snowflake.
 
-<!-- Insérer ici la capture d'écran de l'application Streamlit -->
+### Renseignement des informations
+
+<img width="1568" height="784" alt="image" src="https://github.com/user-attachments/assets/8354a766-1137-4852-87f0-ca67241dfe8f" />
+
+Sur la partie gauche l'utilisateur peut modifier les informations du bien et la page d'accueil se met à jour automatiquement.
+
+### Prédiction
+
+<img width="1563" height="872" alt="image" src="https://github.com/user-attachments/assets/d1aa8284-4de0-4fc6-a348-7579ab88adc9" />
+
+Une fois la prédiction réalisée, l'interface affiche un compte rendu global du bien et de ses caractéristiques. On y trouve aussi les informations du modèle utilisé.
 
 ### Fonctionnalités
 
