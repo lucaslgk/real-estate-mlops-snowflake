@@ -157,6 +157,8 @@ Après comparaison du Stacking et du Voting sur les trois meilleurs candidats, l
 | R² CV | 0.6585 |
 | R² Test | 0.6885 |
 | Overfitting | 0.0837 |
+| MAE | 43.362 |
+| RMSE | 62.584 |
 
 Le modèle est enregistré dans le **Snowflake Model Registry** sous le nom `house_price_voting` (version `v1`) dans `HOUSE_PRICE_DB.HOUSE_SCHEMA`.
 
