@@ -10,3 +10,4 @@ dependencies:
   - seaborn=*
   - snowflake-ml-python=*
   - snowflake-snowpark-python=*
+  - plotly=*
