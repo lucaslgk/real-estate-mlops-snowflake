@@ -3,14 +3,17 @@ import json
 import plotly.graph_objects as go
 from snowflake.snowpark.context import get_active_session
 
-# ── Page config ──────────────────────────────────────────────────────────────
+
+
+
 st.set_page_config(
     page_title="Immo·AI — Estimation immobilière",
     layout="wide",
     initial_sidebar_state="expanded"
 )
 
-# ── Custom CSS ────────────────────────────────────────────────────────────────
+
+
 st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=DM+Mono:wght@300;400;500&display=swap');
@@ -265,7 +268,9 @@ with st.sidebar:
     st.markdown("<br>", unsafe_allow_html=True)
     predict_clicked  = st.button("Estimer le prix →")
 
-# ── Header ────────────────────────────────────────────────────────────────────
+
+
+# header
 st.markdown("""
 <div style="padding: 2rem 0 1rem 0;">
     <div class="hero-sub">Snowflake ML · VotingRegressor · R² 0.69</div>
@@ -274,7 +279,8 @@ st.markdown("""
 <div class="gold-line"></div>
 """, unsafe_allow_html=True)
 
-# ── Helper functions ──────────────────────────────────────────────────────────
+
+
 def make_gauge(price, min_price=100_000, max_price=600_000):
     """Plotly gauge for predicted price."""
     fig = go.Figure(go.Indicator(
@@ -417,7 +423,7 @@ if not predict_clicked:
         st.markdown(bars_html, unsafe_allow_html=True)
 
 else:
-    # ── Prediction state ──────────────────────────────────────────────────────
+    
     with st.spinner(""):
         try:
             input_data = {
